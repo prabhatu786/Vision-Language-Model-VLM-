@@ -2,15 +2,6 @@
 
 This repository contains a Python script that processes a CSV file containing image URLs, downloads the images, and uses OpenAI's CLIP model to predict product categories. The predictions are then saved to a new CSV file. The script is optimized for parallel downloading and efficient batch processing.
 
-## Installation
-
-### Local Setup
-
-1. **Clone the Repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/product-category-clip.git
-   cd product-category-clip
 # Image Category Prediction with CLIP in Google Colab
 
 ## Overview
@@ -29,20 +20,8 @@ This notebook performs the following tasks:
   - **`image_url.csv`**: Contains image URLs under the column `PRODUCT_MAIN_IMAGE_URL`.
   - **`product_category.csv`**: Contains product categories under the column `Product_category`.
 
+ # 1. Install Required Libraries
 
-
-
-# Project Title
-
-1. Install Required Libraries
-
- 
-!pip install torch torchvision transformers pandas requests Pillow tqdm ```bash
-
-- **Python 3.7 or higher**
-- **Google Colab Account** (if running on Colab)
-- **CSV Files:**
--**Purpose:** Installs essential libraries needed for the script
 -**torch and torchvision:** PyTorch and its image processing utilities.
 
 -**transformers:** For using pre-trained models like CLIP.
