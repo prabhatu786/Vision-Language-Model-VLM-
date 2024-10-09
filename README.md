@@ -17,7 +17,7 @@ This notebook performs the following tasks:
 
 - A Google account to access Google Colab.
 - Two CSV files:
-  - **`image_url.csv`**: Contains image URLs under the column `PRODUCT_MAIN_IMAGE_URL`.
+  - **`Final_dataset.csv`**: Contains image URLs under the column `PRODUCT_MAIN_IMAGE_URL`.
   - **`product_category.csv`**: Contains product categories under the column `Product_category`.
 
  # 1. Install Required Libraries
